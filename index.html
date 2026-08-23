@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – DeepFocus</title>
+  <meta name="description" content="Privacy Policy for the DeepFocus focus timer app.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f4f0;
+      --bg-accent: #ebe6dc;
+      --text: #1c1b19;
+      --muted: #5c5852;
+      --border: #d4cfc5;
+      --accent: #0f6b5c;
+      --link: #0b5c4f;
+      --card: rgba(255, 255, 255, 0.72);
+      --shadow: 0 12px 40px rgba(28, 27, 25, 0.06);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121411;
+        --bg-accent: #1a1d19;
+        --text: #f2efe8;
+        --muted: #a8a49b;
+        --border: #2e322d;
+        --accent: #5dcfb8;
+        --link: #7ad9c4;
+        --card: rgba(26, 29, 25, 0.85);
+        --shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "DM Sans", sans-serif;
+      font-optical-sizing: auto;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, var(--bg-accent), transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 50%),
+        var(--bg);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      width: min(680px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 3rem 0 4.5rem;
+    }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(1.5rem, 4vw, 2.25rem);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.75rem, 5vw, 2.15rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+    }
+
+    .updated {
+      margin: 0 0 1.75rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 0 0 1.5rem;
+      padding-left: 1.15rem;
+    }
+
+    li {
+      margin: 0.65rem 0;
+      padding-left: 0.25rem;
+      font-size: 1.05rem;
+    }
+
+    li::marker {
+      color: var(--accent);
+    }
+
+    .contact {
+      margin-top: 1.75rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .contact strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    @media (max-width: 480px) {
+      main {
+        padding-top: 1.75rem;
+        padding-bottom: 3rem;
+      }
+
+      .panel {
+        border-radius: 14px;
+      }
+
+      li,
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="panel">
+      <h1>Privacy Policy – DeepFocus</h1>
+      <p class="updated">Last updated: August 23, 2026</p>
+
+      <p>
+        DeepFocus (“we”, “our”, or “us”) respects your privacy.
+        This page explains how the DeepFocus app handles your information.
+      </p>
+
+      <ul>
+        <li>DeepFocus does not collect personal data.</li>
+        <li>All settings and data are stored only on the device.</li>
+        <li>No login or account is required.</li>
+        <li>In-app purchases are handled by RevenueCat / Google Play.</li>
+      </ul>
+
+      <p>
+        Payment providers may process information needed to complete purchases
+        according to their own privacy policies.
+      </p>
+
+      <div class="contact">
+        <strong>Contact</strong>
+        <p>
+          Questions about this Privacy Policy?
+          Email <a href="mailto:mikkdixen@gmail.com">mikkdixen@gmail.com</a>.
+        </p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
